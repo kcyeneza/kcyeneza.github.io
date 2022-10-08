@@ -57,7 +57,21 @@ ul {
   font-size:40px;
   color:#6AE4FF;
   }
-
+  a:link{
+    font-family: Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #6AE4FF;
+    
+  }
+  a:hover {
+    text-decoration: none;
+    color: #FF8A4F;
+  
+  }
+  a:visited {
+    color:#E84207;
+  }
 
   h1{
     font-family: Helvetica, sans-serif;
@@ -152,21 +166,6 @@ ul {
   }
 
 
-a:link{
-  font-family: Helvetica, sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  color: #6AE4FF;
-  
-}
-a:hover {
-  text-decoration: none;
-  color: #FF8A4F;
-
-}
-a:visited {
-  color:#E84207;
-}
 
 
   button{
