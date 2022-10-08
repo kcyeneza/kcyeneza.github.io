@@ -15,14 +15,16 @@
     padding: 20px;
 
   }
-  @media only screen and (min-width:600px ) {
+  @media only screen and (min-width:200px ) {
     .row {
         flex-direction: column;
+        display:flex;
     }
   }
   @media only screen and (min-height: 2000px ) {
     .column {
         flex-direction:row;
+        display:flex;
     }
   }
   
@@ -38,9 +40,54 @@ body{
   height: 982px;
   left: 0px;
   top: 0px;
-
+  display:flex;
   background: #0A0097;
 }
+a:link{
+  font-family: Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  color: #6AE4FF;
+  
+}
+a:hover {
+  text-decoration: none;
+  color: #FF8A4F;
+
+}
+a:visited {
+  color:#E84207;
+}
+
+
+  button{
+    background: #BEE2FB;
+    border-radius: 10px;
+    font-family:Helvetica, sans-serif;
+    border: 0px solid #BEE2FB;
+    height: 50px;
+    color: #0A0097;
+    font-size: 15px;
+    font-weight: 800;
+    font-style:italic;
+    transition-duration: 1s;
+    padding-left: 15px;
+    padding-right:15px;
+    margin-left: 60px;
+
+  
+
+    }
+  
+  button:hover{
+      color: #FF8A4F;
+      background-color: #FF8A4F;
+    }
+  button:visited{
+    background: #E84207;
+  }
+
+
 
 img{
   border-color:#FF8A4F;
@@ -155,68 +202,4 @@ ul {
     padding-right:30em;
     text-align: justify;
   }
-  li {
-    float: left;
-    font-family:Helvetica, sans-serif;
-    font-weight:400px;
-   
-  }
   
-  li a {
-    display: block;
-    color:#6AE4FF;
-    text-align: right;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family:Helvetica, sans-serif;
-    font-weight:400px;
-  
-  }
-  
-
-a:link{
-  font-family: Helvetica, sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  color: #6AE4FF;
-  
-}
-a:hover {
-  text-decoration: none;
-  color: #FF8A4F;
-
-}
-a:visited {
-  color:#E84207;
-}
-
-
-  button{
-    background: #BEE2FB;
-    border-radius: 10px;
-    font-family:Helvetica, sans-serif;
-    border: 0px solid #BEE2FB;
-    height: 50px;
-    color: #0A0097;
-    font-size: 15px;
-    font-weight: 800;
-    font-style:italic;
-    transition-duration: 1s;
-    padding-left: 15px;
-    padding-right:15px;
-    margin-left: 60px;
-
-  
-
-    }
-  
-  button:hover{
-      color: #FF8A4F;
-      background-color: #FF8A4F;
-    }
-  button:visited{
-    background: #E84207;
-  }
-
-
-
