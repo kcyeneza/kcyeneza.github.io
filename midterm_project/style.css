@@ -12,7 +12,7 @@
   }
   .column{
     flex: 150%;
-    padding: 20px;
+    padding: 25px;
 
   }
   @media only screen and (min-width:150% ) {
@@ -26,6 +26,23 @@
         flex-direction:row;
         display:flex;
     }
+
+    a:link{
+      font-family: Helvetica, sans-serif;
+      font-weight: 800;
+      font-size: 18px;
+      color: #6AE4FF;
+      
+    }
+    a:hover {
+      text-decoration: none;
+      color: #FF8A4F;
+    
+    }
+    a:visited {
+      color:#E84207;
+    }
+  
   }
   
   body{
@@ -56,21 +73,6 @@ ul {
   font-weight:1000;
   font-size:40px;
   color:#6AE4FF;
-  }
-  a:link{
-    font-family: Helvetica, sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    color: #6AE4FF;
-    
-  }
-  a:hover {
-    text-decoration: none;
-    color: #FF8A4F;
-  
-  }
-  a:visited {
-    color:#E84207;
   }
 
   h1{
