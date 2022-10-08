@@ -49,8 +49,8 @@ img{
   font-size: 18px;
   font-weight: 800;
   padding-left: 25em;
-  height:100%;
-  width: 100%
+  height:25%;
+  margin-left:90px;
 }
   
 ul {
@@ -159,16 +159,20 @@ ul {
 
   button{
     background: #BEE2FB;
-    border-radius: 100px;
+    border-radius: 10px;
     font-family:Helvetica, sans-serif;
-    border: 50px solid #BEE2FB;
+    border: 0px solid #BEE2FB;
     height: 50px;
-    border-radius: 5px;
     color: #0A0097;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 800;
+    font-style:italic;
     transition-duration: 1s;
-    text-align: left;
+    padding-left: 15px;
+    padding-right:15px;
+    margin-left: 60px;
+  
+
     }
   
   button:hover{
