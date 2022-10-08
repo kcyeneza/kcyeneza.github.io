@@ -49,6 +49,8 @@ img{
   color: #BEE2FB;
   font-size: 18px;
   font-weight: 800;
+  max-width: 400px;
+  max-height: 400px;
 }
   
 ul {
@@ -153,6 +155,28 @@ ul {
     padding-right:30em;
     text-align: justify;
 
+  }
+
+  button{
+    background: #BEE2FB;
+    border-radius: 100px;
+    font-family:Helvetica, sans-serif;
+    border: 5px solid #BEE2FB;
+    height: 50px;
+    border-radius: 5px;
+    color: #0A0097;
+    font-size: 20px;
+    font-weight: 800;
+    transition-duration: 1s;
+    text-align: left;
+    }
+  
+  button:hover{
+      color: #FF8A4F;
+      background-color: #FF8A4F;
+    }
+  button:visited{
+    background: #E84207;
   }
 
 
