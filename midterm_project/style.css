@@ -38,7 +38,6 @@ body{
   height: 982px;
   left: 0px;
   top: 0px;
-  display:flex;
 
   background: #0A0097;
 }
@@ -192,11 +191,6 @@ a:visited {
 }
 
 
-
-
-
-
-
   button{
     background: #BEE2FB;
     border-radius: 10px;
@@ -223,4 +217,6 @@ a:visited {
   button:visited{
     background: #E84207;
   }
+
+
 
