@@ -11,7 +11,7 @@
     flex-wrap: wrap;
   }
   .column{
-    flex: 20%;
+    flex: 150%;
     padding: 20px;
 
   }
@@ -38,6 +38,7 @@ body{
   height: 982px;
   left: 0px;
   top: 0px;
+  display:flex;
 
   background: #0A0097;
 }
@@ -51,6 +52,7 @@ img{
   padding-left: 25em;
   height:25%;
   margin-left:150px;
+  display-flex;
 }
   
 ul {
@@ -62,6 +64,7 @@ ul {
   font-weight:1000;
   font-size:40px;
   color:#6AE4FF;
+  display:flex;
   }
 
 
@@ -74,6 +77,7 @@ ul {
     padding-left: 0.5em;
     padding-top: 0.5em;
     color: #E84207;
+    display:flex;
   }
 
   h2 {
@@ -84,7 +88,7 @@ ul {
     font-size: 40px;
     padding-left: 0.9em;
     padding-top: 0em;
-    
+    display:flex;
     color: #FF8A4F;
     
   }
@@ -97,6 +101,7 @@ ul {
     padding-left:1em;
     line-height: 10px;
     color: #6AE4FF;
+    display:flex;
 
     
   }
@@ -154,13 +159,13 @@ ul {
     padding-left: 2em;
     padding-right:30em;
     text-align: justify;
-
+    display:flex;
   }
   li {
     float: left;
     font-family:Helvetica, sans-serif;
     font-weight:400px;
-  
+    display:flex;
   }
   
   li a {
@@ -171,6 +176,7 @@ ul {
     text-decoration: none;
     font-family:Helvetica, sans-serif;
     font-weight:400px;
+    display:flex;
   }
   
 
@@ -210,6 +216,7 @@ a:visited {
     padding-left: 15px;
     padding-right:15px;
     margin-left: 60px;
+    display:flex;
   
 
     }
