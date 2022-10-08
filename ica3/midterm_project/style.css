@@ -1,0 +1,192 @@
+/* General styles - put these straight into your stylesheet */
+
+
+  html {
+    background-color:#0A0097;;
+  }
+
+
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .column{
+    flex: 20%;
+    padding: 20px;
+
+  }
+  @media only screen and (min-width: 400px ) {
+    .row {
+        flex-direction: column;
+    }
+  }
+  @media only screen and (min-width: 1900px ) {
+    .column {
+        flex-direction:row;
+    }
+  }
+  
+
+
+body{
+    margin: 0;
+  }
+
+body{
+  position: absolute;
+  width: 1512px;
+  height: 982px;
+  left: 0px;
+  top: 0px;
+
+  background: #0A0097;
+}
+
+img{
+  padding-left:25em;
+  border-color:#FF8A4F;
+}
+  
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top:10px;
+  padding-left:24em;
+  font-family: Helvetica, sans-serif;
+  font-weight:1000;
+  font-size:40px;
+  color:#6AE4FF;
+  }
+
+
+  h1{
+    font-family: Helvetica, sans-serif;
+    font-size: 65px;
+    margin: auto auto;
+    font-style: italic;
+    font-weight: 900;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    color: #E84207;
+  }
+
+  h2 {
+    font-family: Helvetica, sans-serif;
+    font-style: bold;
+    margin: auto auto;
+    font-weight: 100;
+    font-size: 40px;
+    padding-left: 0.9em;
+    padding-top: 0em;
+    
+    color: #FF8A4F;
+    
+  }
+
+  h3{
+    font-family: Helvetica, sans-serif;
+    font-weight: 800;
+    font-style:italic;
+    font-size: 33px;
+    padding-left:1em;
+    line-height: 10px;
+    color: #6AE4FF;
+
+    
+  }
+  
+  h4{
+  font-family: Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 44px;
+
+  color: #FF8A4F;
+
+  }
+
+  h5{
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    height: 39px;
+    line-height: -20em;
+
+    color: #BEE2FB;
+
+  }
+
+  h6{
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    height: 29px;
+
+    color: #BEE2FB;
+  }
+
+  h7{
+    font-family: Helvetica, sans-serif;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 116px;
+    float: 30em;
+    color: #ffe9e1;
+  }
+
+  p{
+    font-family: Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    font-style:italic;
+    color: #BEE2FB;
+    line-height:21px;
+    padding-left: 2em;
+    padding-right:30em;
+    text-align: justify;
+
+  }
+
+
+    li {
+      float: left;
+      font-family:Helvetica, sans-serif;
+      font-weight:400px;
+    
+    }
+    
+    li a {
+      display: block;
+      color:#6AE4FF;
+      text-align: right;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-family:Helvetica, sans-serif;
+      font-weight:400px;
+    }
+    
+
+  a:link{
+    font-family: Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #6AE4FF;
+    
+  }
+
+  a:visited {
+    color:#E84207;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #FF8A4F;
+
+  }
+
+
+
