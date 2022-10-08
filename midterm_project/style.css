@@ -15,12 +15,12 @@
     padding: 20px;
 
   }
-  @media only screen and (min-width:150% ) {
+  @media only screen and (min-width:400% ) {
     .row {
         flex-direction: column;
     }
   }
-  @media only screen and (min-width: 150% ) {
+  @media only screen and (min-height: 600% ) {
     .column {
         flex-direction:row;
     }
