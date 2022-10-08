@@ -26,22 +26,29 @@
         flex-direction:row;
         display:flex;
     }
-
     a:link{
       font-family: Helvetica, sans-serif;
       font-weight: 800;
-      font-size: 18px;
+      font-size: 15px;
       color: #6AE4FF;
       
+      opacity: 100%;
+      
     }
+    
+  
     a:hover {
       text-decoration: none;
       color: #FF8A4F;
+      opacity:100%;
+      transition-duration: 1s;
     
     }
     a:visited {
       color:#E84207;
+      opacity:100%;
     }
+   
   
   }
   
@@ -220,5 +227,5 @@ ul {
   font-size:40px;
   color:#6AE4FF;
   }
-
+  
 
