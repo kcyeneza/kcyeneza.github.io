@@ -35,6 +35,7 @@ body{
   }
 
 body{
+  position:relative;
   width: 1512px;
   height: 982px;
   left: 0px;
@@ -112,6 +113,7 @@ ul {
 
 
   h1{
+    position:relative;
     font-family: Helvetica, sans-serif;
     font-size: 65px;
     margin: auto auto;
@@ -123,6 +125,7 @@ ul {
   }
 
   h2 {
+    position:relative;
     font-family: Helvetica, sans-serif;
     font-style: bold;
     margin: auto auto;
@@ -136,6 +139,7 @@ ul {
   }
 
   h3{
+    position:relative;
     font-family: Helvetica, sans-serif;
     font-weight: 800;
     font-style:italic;
@@ -148,6 +152,7 @@ ul {
   }
   
   h4{
+  position:relative;
   font-family: Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -191,6 +196,7 @@ ul {
   }
 
   p{
+    position:relative;
     font-family: Helvetica, sans-serif;
     font-weight: 800;
     font-size: 18px;
