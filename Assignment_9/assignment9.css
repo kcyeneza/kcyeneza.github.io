@@ -16,6 +16,18 @@ html {
     padding-top: 0.5em;
     color: #E84207;
   }
+  
+  p{ 
+    font-family: Helvetica, sans-serif;
+    font-size: 65px;
+    margin: auto auto;
+    font-style: italic;
+    font-weight: 900;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    color: #E84207;
+
+  }
 
 img{
   width: 640px;
