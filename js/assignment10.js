@@ -86,7 +86,7 @@ const json2= [
     "salary : 25600",
     "raise_eligible : false"];
 
-    json2['employees'].push(arr);
+    json2['employees'].push(anna);
 
 
     console.log(json2);  //problem 3
