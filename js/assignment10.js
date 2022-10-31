@@ -76,17 +76,17 @@ const json2= [
 
   
 
-  console.log(json2); //problem
+  console.log(json2); //problem 2
 
 
 
- let anna = ["first name : Anna",
+ const anna = ["first name : Anna",
     "department : Tech",
     "designation : Executive",
     "salary : 25600",
     "raise_eligible : false"];
 
-    json2['employees'].push(anna);
+    json2['employees'].appendChild(anna);
 
 
     console.log(json2);  //problem 3
