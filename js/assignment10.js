@@ -80,13 +80,11 @@ const json2= [
 
 
 
- let anna = {"first name" : "Anna",
-    "department" : "Tech",
-    "designation" : "Executive",
-    "salary": 25600,
-    "raise_eligible": false}
-
-    const arr=Array.from(anna);
+ let anna = ["first name : Anna",
+    "department : Tech",
+    "designation : Executive",
+    "salary : 25600",
+    "raise_eligible : false"];
 
     json2['employees'].push(arr);
 
