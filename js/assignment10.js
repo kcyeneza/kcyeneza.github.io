@@ -86,10 +86,12 @@ const json2= [
     "salary": 25600,
     "raise_eligible": false}
 
-    json2['employees'].push(anna);
+    const arr=Array.from(anna);
+
+    json2['employees'].push(arr);
 
 
-    cosolelog(json2);  //problem 3
+    console.log(json2);  //problem 3
     
 
 
