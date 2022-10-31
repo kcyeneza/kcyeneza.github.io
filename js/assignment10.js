@@ -86,10 +86,10 @@ const json2= [
     "salary : 25600",
     "raise_eligible : false"];
 
-    json2['employees'].appendChild(anna);
+    const newjson2 = json2['employees'].appendChild(anna);
 
 
-    console.log(json2);  //problem 3
+    console.log(newjson2);  //problem 3
     
 
 
