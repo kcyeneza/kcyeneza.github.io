@@ -80,16 +80,17 @@ const json2= [
 
 
 
- const anna = ["first name : Anna",
-    "department : Tech",
-    "designation : Executive",
-    "salary : 25600",
-    "raise_eligible : false"];
+ const anna = 
+    {"first name" : "Anna",
+    "department" : "Tech",
+    "designation" : "Executive",
+    "salary" : 25600,
+    "raise_eligible" : false};
 
-    const newjson2 = json2['employees'].appendChild(anna);
+    json2['employees'].push(anna);
 
 
-    console.log(newjson2);  //problem 3
+    console.log(json2);  //problem 3
     
 
 
