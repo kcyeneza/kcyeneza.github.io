@@ -1,7 +1,7 @@
 const quoteButton = document.querySelector('.new-quote');
 quoteButton.addEventListener('click', getQuote);
 
-const endpoint = 'https://v2.jokeapi.dev/joke/Any?safe-mode';
+const endpoint = 'https://www.boredapi.com/api/activity';
 
 async function getQuote() {
     console.log('test click worked');
@@ -11,11 +11,11 @@ async function getQuote() {
 
     let json_response = JSON.parse(response);
     // console.log(json_response);
-    console.log(json_response['joke']);
+    console.log(json_response["activity"]);
 
     // .then(text => text.text());
     // console.log(text('message'));
-    displayQuote(json_response['joke']);
+    displayQuote(json_response['activity']);
 }
 
 function displayQuote(x) {
