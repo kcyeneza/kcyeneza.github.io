@@ -11,11 +11,11 @@ async function getQuote() {
 
     let json_response = JSON.parse(response);
     // console.log(json_response);
-    console.log(json_response['message']);
+    console.log(json_response['joke']);
 
     // .then(text => text.text());
     // console.log(text('message'));
-    displayQuote(json_response['message']);
+    displayQuote(json_response['joke']);
 }
 
 function displayQuote(x) {
