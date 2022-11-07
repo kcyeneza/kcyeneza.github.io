@@ -79,10 +79,10 @@ html {
     border: 0px solid #BEE2FB;
     height: 50px;
     color: #0A0097;
-    font-size: 15px;
+    font-size: 50px;
     font-weight: 800;
     font-style:italic;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     padding-left: 15px;
     padding-right:15px;
     margin-left: 60px;
