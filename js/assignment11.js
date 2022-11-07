@@ -1,6 +1,13 @@
 const quoteButton = document.querySelector('.new-quote');
 quoteButton.addEventListener('click', getQuote);
 
+let body = document.querySelector("body");
+body.addEventListener('click', giveAlert());
+function giveAlert (){
+    alert("Wanna hear a funny joke?");
+}
+
+
 
 
 const endpoint = 'https://v2.jokeapi.dev/joke/Any?safe-mode';
