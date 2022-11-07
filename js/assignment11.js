@@ -1,8 +1,5 @@
 const quoteButton = document.querySelector('.new-quote');
 quoteButton.addEventListener('click', getQuote);
-const emojiButton= document.querySelector('.emoji');
-emojiButton.addEventListener('click', emojiDoer);
-
 
 
 const endpoint = 'https://v2.jokeapi.dev/joke/Any?safe-mode';
