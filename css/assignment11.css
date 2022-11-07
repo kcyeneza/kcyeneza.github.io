@@ -33,7 +33,7 @@ html {
     padding: 10px;
     border-bottom: 1px solid #ebebeb;
     font-family: Helvetica, sans-serif;
-    font-size: 65px;
+    font-size: 50px;
     margin: auto auto;
     font-style: italic;
     font-weight: 900;
@@ -71,12 +71,12 @@ html {
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
   }
   
-  .twitter {
+  .emoji {
     background-color: #1da1f2;
     text-decoration: none;
   }
   
-  .twitter:hover {
+  .emoji:hover {
     background-color: #1e7fbb;
   }
   
