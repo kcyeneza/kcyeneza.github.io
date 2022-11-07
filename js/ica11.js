@@ -30,3 +30,5 @@ function displayQuote(x) {
 //gets Quote on screen
 getQuote();
 
+
+
