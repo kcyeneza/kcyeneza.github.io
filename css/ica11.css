@@ -73,12 +73,26 @@ html {
   }
   
   .new-quote {
-    background-color: #4A2B0F;
-    margin-bottom: 15px;
+    background: #BEE2FB;
+    border-radius: 10px;
+    font-family:Helvetica, sans-serif;
+    border: 0px solid #BEE2FB;
+    height: 50px;
+    color: #0A0097;
+    font-size: 15px;
+    font-weight: 800;
+    font-style:italic;
+    transition-duration: 1s;
+    padding-left: 15px;
+    padding-right:15px;
+    margin-left: 60px;
+
   }
   
   .new-quote:hover {
-    background-color: #6d3b0e;
+    color: #FF8A4F;
+    background-color: #FF8A4F;
+    
   }
   
   .new-quote:disabled {
@@ -218,29 +232,3 @@ ul {
 
   }
 
-
-
-
-  button{
-    background: #BEE2FB;
-    border-radius: 10px;
-    font-family:Helvetica, sans-serif;
-    border: 0px solid #BEE2FB;
-    height: 50px;
-    color: #0A0097;
-    font-size: 15px;
-    font-weight: 800;
-    font-style:italic;
-    transition-duration: 1s;
-    padding-left: 15px;
-    padding-right:15px;
-    margin-left: 60px;
-
-  
-
-    }
-  
-  button:hover{
-      color: #FF8A4F;
-      background-color: #FF8A4F;
-    }
