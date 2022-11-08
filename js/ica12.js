@@ -44,14 +44,14 @@ output.textContent =  outputInt;
 
 }
 
-function random(){
+function randomstuff(){
 
     outputInt=randomNumber(0,999999999);
     output.textContent=outputInt;
 }
 
 function randomNumber(min,max){
-    const num= Math.floor(Math.random()* (max-mix +1))+min;
+    const num=  Math.floor(Math.random()* (max-mix +1))+min;
     return num;
     
 }
@@ -63,4 +63,4 @@ const minusButton= document.querySelector('.minus-button').addEventListener('cli
 const plusButton= document.querySelector('.plus-button').addEventListener('click', plus);
 const resetButton= document.querySelector('.reset-button').addEventListener('click', reset);
 const submitButton= document.querySelector('.submit-button').addEventListener('click', check);
-const randomButton= document.querySelector('.random-button').addEventListener('click', random);
+const randomButton= document.querySelector('.random-button').addEventListener('click', randomstuff);
