@@ -55,12 +55,14 @@ function randomNumber(min,max){
     return num;
     
 }
-const output = document.querySelector('.output');
-let outputInt= parseInt(output.textContent);
-console.log(outputInt);
+
 
 const minusButton= document.querySelector('.minus-button').addEventListener('click', minus);
 const plusButton= document.querySelector('.plus-button').addEventListener('click', plus);
 const resetButton= document.querySelector('.reset-button').addEventListener('click', reset);
 const submitButton= document.querySelector('.submit-button').addEventListener('click', check);
 const randomButton= document.querySelector('.random-button').addEventListener('click', randomstuff);
+
+const output = document.querySelector('.output');
+let outputInt= parseInt(output.textContent);
+console.log(outputInt);
