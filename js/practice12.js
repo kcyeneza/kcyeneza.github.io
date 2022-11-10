@@ -11,22 +11,9 @@ function reset() {
     output.textContent = outputInt;
 }
 
-function minus() {
-    if (outputInt > 0) {
-    outputInt -=1;
-    output.textContent = outputInt; }
-    
-}
-
-function plus() {
-    if (outputInt < 9999999999) {
-    outputInt +=1;
-    output.textContent = outputInt;
-    }
-}
 
 function random() {
-    outputInt = randomNumber(0, 9999999999);
+    outputInt = randomNumber(0, 999);
     output.textContent = outputInt;
 }
 
@@ -44,4 +31,4 @@ console.log(outputInt);
 
 
 const noButton = document.querySelector('.no1-button').addEventListener('click', random);
-const submitButton = document.querySelector('.submit1-button').addEventListener('click', submit);
+const submitButton = document.querySelector('.yes1-button').addEventListener('click', submit);
