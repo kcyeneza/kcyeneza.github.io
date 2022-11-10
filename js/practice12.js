@@ -43,5 +43,5 @@ console.log(outputInt);
 
 
 
-const noButton = document.querySelector('.no-button').addEventListener('click', random);
-const submitButton = document.querySelector('.submit-button').addEventListener('click', submit);
+const noButton = document.querySelector('.no1-button').addEventListener('click', random);
+const submitButton = document.querySelector('.submit1-button').addEventListener('click', submit);
