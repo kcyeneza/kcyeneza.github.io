@@ -25,7 +25,8 @@ function reset(){
     
     
     outputInt=0;
-    output.randomNumber.textConent =outputInt;
+    const filler_number =output.randomNumber(outputInt);
+    output.textContent(filler_number);
 
 }
 
