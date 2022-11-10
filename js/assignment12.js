@@ -23,8 +23,9 @@ function submit(){
 
 function reset(){
     
+    
     outputInt=0;
-    output.textContent=outputInt;
+    output.randomNumber.textConent =outputInt;
 
 }
 
