@@ -6,11 +6,6 @@ function submit() {
     alert(output.textContent);
 }
 
-function reset() {
-    outputInt = 0;
-    output.textContent = outputInt;
-}
-
 
 function random1() {
     outputInt = randomNumber(000, 999);
