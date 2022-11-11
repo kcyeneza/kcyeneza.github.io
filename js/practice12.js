@@ -19,12 +19,12 @@ function random1() {
 
 function random2() {
     outputInt = randomNumber(000, 999);
-    output.textContent = outputInt;
+    output.textContent = outputInt2;
 }
 
 function random3() {
     outputInt = randomNumber(0000, 9999);
-    output.textContent = outputInt;
+    output.textContent = outputInt3;
 }
 
 
@@ -36,7 +36,9 @@ function randomNumber(min, max) {
 
 
 const output = document.querySelector('.output');
-let outputInt = parseInt(output.textContent);
+let outputInt1 = parseInt(output.textContent);
+let outputInt2 = parseInt(output.textContent);
+let outputInt3 = parseInt(output.textContent);
 console.log(outputInt);
 
 
