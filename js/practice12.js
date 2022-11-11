@@ -8,17 +8,17 @@ function submit() {
 
 
 function random1() {
-    outputInt = randomNumber(000, 999);
-    output.textContent = outputInt;
+    outputInt1 = randomNumber(000, 999);
+    output.textContent = outputInt1;
 }
 
 function random2() {
-    outputInt = randomNumber(000, 999);
+    outputInt2 = randomNumber(000, 999);
     output.textContent = outputInt2;
 }
 
 function random3() {
-    outputInt = randomNumber(0000, 9999);
+    outputInt3 = randomNumber(0000, 9999);
     output.textContent = outputInt3;
 }
 
