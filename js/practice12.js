@@ -34,7 +34,6 @@ const output = document.querySelector('.output');
 let outputInt1 = parseInt(output.textContent);
 let outputInt2 = parseInt(output.textContent);
 let outputInt3 = parseInt(output.textContent);
-//console.log(outputInt);
 
 
 
