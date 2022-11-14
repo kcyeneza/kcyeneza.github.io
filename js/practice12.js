@@ -8,17 +8,17 @@ function submit() {
 
 
 function random1() {
-    outputInt1 = randomNumber(000, 999);
+    outputInt1 = randomNumber(100, 999);
     output.textContent = outputInt1;
 }
 
 function random2() {
-    outputInt2 = randomNumber(000, 999);
-    output.textContent = outputInt2;
+    outputInt2 = randomNumber(100, 999);
+    output2.textContent = outputInt2;
 }
 
 function random3() {
-    outputInt3 = randomNumber(0000, 9999);
+    outputInt3 = randomNumber(1000, 9999);
     output.textContent = outputInt3;
 }
 
@@ -32,8 +32,15 @@ function randomNumber(min, max) {
 
 const output = document.querySelector('.output');
 let outputInt1 = parseInt(output.textContent);
-let outputInt2 = parseInt(output.textContent);
-let outputInt3 = parseInt(output.textContent);
+
+const output2=document.querySelector('.output2');
+let outputInt2=parseInt(output2.textContent);
+
+const output3=document.querySelector('output3');
+let outputInt3= parseInt(output3.textContent);
+
+const output4=document.querySelector('output4');
+let outputInt4= parseInt(output4.textContent);
 
 
 
