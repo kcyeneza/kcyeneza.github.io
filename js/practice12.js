@@ -28,6 +28,12 @@ function randomNumber(min, max) {
     return num;
   }
 
+
+function complete(){
+    outputInt4= outputInt+outputInt2+outputInt3;
+    output4.textContent = outputInt4;
+}
+
 const output = document.querySelector('.output');
 let outputInt1 = parseInt(output.textContent);
 
@@ -46,3 +52,4 @@ const noButton = document.querySelector('.no1-button').addEventListener('click',
 const submitButton = document.querySelector('.yes1-button').addEventListener('click', submit);
 const no2Button = document.querySelector('.no2-button').addEventListener('click', random2);
 const no3Button = document.querySelector('.no3-button').addEventListener('click', random3);
+const yes4Button=document.querySelector('.yes4-button').addEventListener('click', complete);
