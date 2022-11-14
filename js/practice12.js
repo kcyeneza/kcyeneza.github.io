@@ -19,7 +19,7 @@ function random2() {
 
 function random3() {
     outputInt3 = randomNumber(1000, 9999);
-    output3ßßßß.textContent = outputInt3;
+    output3.textContent = outputInt3;
 }
 
 
