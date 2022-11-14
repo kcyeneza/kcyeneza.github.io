@@ -19,7 +19,7 @@ function random2() {
 
 function random3() {
     outputInt3 = randomNumber(1000, 9999);
-    output.textContent = outputInt3;
+    output3ßßßß.textContent = outputInt3;
 }
 
 
@@ -27,8 +27,6 @@ function randomNumber(min, max) {
     const num = Math.floor(Math.random() * (max - min + 1)) + min;
     return num;
   }
-
-
 
 const output = document.querySelector('.output');
 let outputInt1 = parseInt(output.textContent);
