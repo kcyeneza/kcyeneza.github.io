@@ -44,7 +44,7 @@ const output3=document.querySelector('.output3');
 let outputInt3= parseInt(output3.textContent);
 
 const output4=document.querySelector('.output4');
-let outputInt4= parseInt(output.textContent+output2.textContent+output3.textContent);
+let outputInt4= parseInt(output4.textContent);
 
 
 
