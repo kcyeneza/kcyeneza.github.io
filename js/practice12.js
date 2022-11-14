@@ -1,11 +1,19 @@
-function check() {
-    console.log('test');
+
+
+function submit1() {
+    alert(output.textContent+" YOU'VE CORRECTLY INPUT YOUR AREA CODE!");
 }
 
-function submit() {
-    alert(output.textContent);
+function submit2() {
+    alert(output2.textContent+" NOW YOU HAVE YOUR SECOND SET OF DIGITS.");
 }
 
+function submit3() {
+    alert(output3.textContent+" ALMOST THERE!");
+}
+function submit4() {
+    alert(output4.textContent+"CONGRATS, THE GOVERNMENT HAS YOUR PHONE NUMBER!");
+}
 
 function random1() {
     outputInt1 = randomNumber(100, 999);
@@ -49,7 +57,10 @@ let outputInt4= parseInt(output4.textContent);
 
 
 const noButton = document.querySelector('.no1-button').addEventListener('click', random1);
-const submitButton = document.querySelector('.yes1-button').addEventListener('click', submit);
 const no2Button = document.querySelector('.no2-button').addEventListener('click', random2);
 const no3Button = document.querySelector('.no3-button').addEventListener('click', random3);
 const yes4Button=document.querySelector('.yes4-button').addEventListener('click', complete);
+const submitButton1 = document.querySelector('.yes1-button').addEventListener('click', submit1);
+const submitButton2 = document.querySelector('.yes2-button').addEventListener('click', submit2);
+const submitButton3 = document.querySelector('.yes3-button').addEventListener('click', submit3);
+const submitButton4 = document.querySelector('.yes4-button').addEventListener('click', submit4);
