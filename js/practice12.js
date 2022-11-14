@@ -1,18 +1,18 @@
 
 
 function submit1() {
-    alert(output.textContent+" YOU'VE CORRECTLY INPUT YOUR AREA CODE!");
+    alert("WE'VE RECORDED THE FOLLOWING: "+output.textContent);
 }
 
 function submit2() {
-    alert(output2.textContent+" NOW YOU HAVE YOUR SECOND SET OF DIGITS.");
+    alert("WE'VE RECORDED THE FOLLOWING: "+output2.textContent);
 }
 
 function submit3() {
-    alert(output3.textContent+" ALMOST THERE!");
+    alert("WE'VE RECORDED THE FOLLOWING: "+ output3.textContent);
 }
 function submit4() {
-    alert(output4.textContent+"CONGRATS, THE GOVERNMENT HAS YOUR PHONE NUMBER!");
+    alert(" CONGRATS, THE GOVERNMENT HAS YOUR PHONE NUMBER: "+output4.textContent);
 }
 
 function random1() {
@@ -38,7 +38,7 @@ function randomNumber(min, max) {
 
 
 function complete(){
-    outputInt4= output.textContent+output2.textContent+output3.textContent;
+    outputInt4= output.textContent+"-"+output2.textContent+"-"+output3.textContent;
     output4.textContent = outputInt4;
 }
 
