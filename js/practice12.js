@@ -30,7 +30,7 @@ function randomNumber(min, max) {
 
 
 function complete(){
-    outputInt4= outputInt+outputInt2+outputInt3;
+    outputInt4= outputInt1+outputInt2+outputInt3;
     output4.textContent = outputInt4;
 }
 
