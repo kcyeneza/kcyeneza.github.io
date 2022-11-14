@@ -36,10 +36,10 @@ let outputInt1 = parseInt(output.textContent);
 const output2=document.querySelector('.output2');
 let outputInt2=parseInt(output2.textContent);
 
-const output3=document.querySelector('output3');
+const output3=document.querySelector('.output3');
 let outputInt3= parseInt(output3.textContent);
 
-const output4=document.querySelector('output4');
+const output4=document.querySelector('.output4');
 let outputInt4= parseInt(output4.textContent);
 
 
