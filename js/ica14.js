@@ -14,6 +14,6 @@ const aliceTumbling = [
   const alice3 = document.querySelector("#alice3");
 
 alice1.animate(aliceTumbling, aliceTiming).finished
-    promise.then(() => alice2.animate(aliceTumbling, aliceTiming).finished)
-    promsise.then(() => alice3.animate(aliceTumbling, aliceTiming).finished)
-    await.catch(error => console.error(`Error animating Alices: ${error}`));
+    .then(() => alice2.animate(aliceTumbling, aliceTiming).finished)
+    .then(() => alice3.animate(aliceTumbling, aliceTiming).finished)
+    .catch(error => console.error(`Error animating Alices: ${error}`));
