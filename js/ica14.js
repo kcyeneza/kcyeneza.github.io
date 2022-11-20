@@ -13,7 +13,7 @@ const aliceTumbling = [
   const alice2 = document.querySelector("#alice2");
   const alice3 = document.querySelector("#alice3");
 
-async function aliceAnimate (aliceTumbling,aliceTiming) {alice1.animate(aliceTumbling, aliceTiming).finished
+alice1.animate(aliceTumbling, aliceTiming).finished
     promise.then(() => alice2.animate(aliceTumbling, aliceTiming).finished)
-    .then(() => alice3.animate(aliceTumbling, aliceTiming).finished)
-    .catch(error => console.error(`Error animating Alices: ${error}`))}
+    promsise.then(() => alice3.animate(aliceTumbling, aliceTiming).finished)
+    await.catch(error => console.error(`Error animating Alices: ${error}`));
