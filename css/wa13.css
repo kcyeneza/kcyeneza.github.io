@@ -39,6 +39,7 @@ ul{ padding: 0;
     }
 
     img{
+      resize: both -50%;
       display:none;
       margin-top:0;
       transform: translateY(calc(-50% + 14px));
