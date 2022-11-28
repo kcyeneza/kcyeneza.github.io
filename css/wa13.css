@@ -43,6 +43,7 @@ ul{ padding: 0;
       display:none;
       margin-top:0;
       transform: translateY(calc(-50% + 14px));
+      height: 25%;
 
     }
   }
