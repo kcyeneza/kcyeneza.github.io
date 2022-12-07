@@ -1,6 +1,6 @@
 /* General styles - put these straight into your stylesheet */
 html {
-  background-color:#0A0097;;
+  background-color:#2b00ff;;
 }
 
 
@@ -23,6 +23,9 @@ html {
       flex-direction:row;
   }
 }
+
+
+
 
     a:link{
       font-family: Helvetica, sans-serif;
