@@ -1,31 +1,29 @@
 /* General styles - put these straight into your stylesheet */
+html {
+  background-color:#0A0097;;
+}
 
 
-  html {
-    background-color:#0A0097;;
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.column{
+  flex: 20%;
+  padding: 20px;
+
+}
+@media only screen and (min-width: 400px ) {
+  .row {
+      flex-direction: column;
   }
-
-
-  .row{
-    display: flex;
-    flex-wrap: wrap;
+}
+@media only screen and (min-width: 1900px ) {
+  .column {
+      flex-direction:row;
   }
-  .column{
-    flex: 150%;
-    padding: 25px;
+}
 
-  }
-  @media only screen and (min-width:150% ) {
-    .row {
-        flex-direction: column;
-        display:flex;
-    }
-  }
-  @media only screen and (min-height: 100% ) {
-    .column {
-        flex-direction:row;
-        display:flex;
-    }
     a:link{
       font-family: Helvetica, sans-serif;
       font-weight: 800;
@@ -50,7 +48,6 @@
     }
    
   
-  }
   
   body{
     margin: 0;
