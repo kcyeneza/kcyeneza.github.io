@@ -247,3 +247,21 @@ ul {
   }
   
 
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#d3canvas {
+  margin:0;
+  background-color: #BBACC1;
+  background:linear-gradient(135deg, #BBACC1 0%,  #F7D1CD 75%);
+}
+
+#p5canvas {
+  margin:0;
+  background-color: #BBACC1;
+  background:linear-gradient(135deg, #BBACC1 0%,  #F7D1CD 75%);
+}
