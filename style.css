@@ -3,23 +3,7 @@ html {
   background-color:#2b00ff;;
 }
 
-.left{
-  @media screen and (max-width: 1000px){
-    position: relative
-    left: 50%
-    top: 30px
-    transform translateX(-50%)}
-  }
 
-  @media only screen and (max-width: 720px) and (orientation : landscape){
-   
-    div{
-      display:none;
-      margin-top:0;
-      transform: translateY(calc(-50% + 14px));
-    }
-
-  }
 
 
 .row{

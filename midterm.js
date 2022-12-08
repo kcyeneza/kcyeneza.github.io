@@ -12,8 +12,6 @@ function setup() {
             color(246, 156, 164,30),];
   var width = 500;
   var height = 500;
-  // var width = d3.select('#p5canvas').node().getBoundingClientRect().width;
-  // var height = width;
   var canvas = createCanvas(width, height);
 
   canvas.parent('p5canvas');
