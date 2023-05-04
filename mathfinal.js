@@ -6,7 +6,7 @@ function setup() {
 	// blue lines
 	for (let i = 0; i < random(1000,2000); i++) {
 	  stroke('pink');
-	  fill(137, 210, 220);
+	  fill('black');
 	  beginShape();
 	  vertex(-800, 800);
 	  vertex(random(-800, 800), random(-800, 800));
