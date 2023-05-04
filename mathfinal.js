@@ -1,5 +1,5 @@
 function setup() {
-	createCanvas(800, 800);
+	createCanvas(800, 2000);
 	background(35,46,209);
 	colorMode(RGB, 255);
 	
