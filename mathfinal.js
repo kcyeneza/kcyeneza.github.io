@@ -1,11 +1,11 @@
 function setup() {
-	createCanvas(800, 2000);
-	background(35,46,209);
+	createCanvas(800, 800);
+	background('black');
 	colorMode(RGB, 255);
 	
 	// blue lines
-	for (let i = 0; i < random(3, 10); i++) {
-	  stroke(137, 210, 220);
+	for (let i = 0; i < random(1000,2000); i++) {
+	  stroke('pink');
 	  fill(137, 210, 220);
 	  beginShape();
 	  vertex(-800, 800);
@@ -16,10 +16,10 @@ function setup() {
 	}
 	
 	// pink lines
-	for (let i = 0; i < random(3, 20); i++) {
-	  stroke(243, 116, 174);
-	  fill(243, 116, 174);
-	  strokeWeight(random(5, 10));
+	for (let i = 0; i < random(1000,2000); i++) {
+	  stroke('pink');
+	  fill('black');
+	  strokeWeight(random(2,5));
 	  beginShape();
 	  vertex(800, -800);
 	  vertex(random(-800, 800), random(-800, 800));
@@ -29,19 +29,31 @@ function setup() {
 	}
 	
 	// green lines
-	stroke(194, 232, 18);
-	for (let i = 0; i < random(50, 100); i++) {
+	stroke('white');
+	 strokeWeight(random(1,2));
+	for (let i = 0; i < random(300, 500); i++) {
 	  line(-800, 0, random(-800, 800), random(-800, 800));
+	  vertex(800, -800);
+	  vertex(random(-800, 800), random(-800, 800));
+	  vertex(random(-800, 800), random(-800, 800));
+	  vertex(random(-800, 800), random(-800, 800));
 	}
 	
 	// orange circles
-	noStroke();
-	for (let i = 0; i < random(5, 10); i++) {
-	  fill(252, 159, 91);
-	  let size = random(100, 200);
+	stroke('black');
+	for (let i = 0; i < random(4, 10); i++) {
+	  fill('black');
+	  let size = random(200, 400);
 	  ellipse(random(-800, 800), random(-800, 800), size, size);
+	  stroke('black');
+	 strokeWeight(random(1,2));
+	 line(-800, 0, random(-800, 800), random(-800, 800));
+	  vertex(800, -800);
+	  vertex(random(-800, 800), random(-800, 800));
+	  vertex(random(-800, 800), random(-800, 800));
+	  vertex(random(-800, 800), random(-800, 800));
 	}
-	stroke(252, 159, 91);
+	stroke('dark grey');
 	strokeWeight(1);
 	for (let i = 0; i < random(40, 100); i++) {
 	  let size = random(1, 5);
@@ -49,14 +61,10 @@ function setup() {
 	}
 	
 	// blue circles
-	stroke(35, 46, 209);
-	for (let i = 0; i < random(2, 6); i++) {
-	  fill(35, 46, 209);
-	  let size = random(100, 200);
-	  ellipse(random(-800, 800), random(-800, 800), size, size);
-	}
+   
   }
   
   function draw() {
 	
   }
+  
