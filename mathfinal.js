@@ -16,7 +16,7 @@ function setup() {
 	}
 	
 	// pink lines
-	for (let i = 0; i < random(1000,2000); i++) {
+	for (let i = 0; i < random(500,1000); i++) {
 	  stroke('pink');
 	  fill('black');
 	  strokeWeight(random(2,5));
