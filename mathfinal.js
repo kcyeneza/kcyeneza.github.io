@@ -1,52 +1,62 @@
-var COLOR_01 = [178, 30, 93]; // pink
-var COLOR_02 = [42, 178, 48]; // green
-var COLOR_03 = [110, 255, 116]; // light green
-var COLOR_04 = [0, 0, 40]; // gray
-
 function setup() {
-	var size = 800;
-	createCanvas(size, size);
-	background.apply(null, COLOR_04);
-	noLoop();
-	stroke(255);
-	angleMode(DEGREES);
-}
-
-function draw() {
-	translate(width/2, height/2);
-	rotate(45/2);
-	branchComponent(100, 8, 60);
-}
-
-function branch(len, angle, gen) {
-	line(0, 0, 0, -len);
-	translate(0, -len);
-	len *= 0.7;
-	angle = random(angle-30, angle+20);
-
-	if (len > 2) {
-		push();
-		rotate(angle);
-		branch(len, angle, gen);
-		pop();
-
-		push();
-		rotate(-angle);
-		branch(len, angle, gen);
-		pop();
+	createCanvas(800, 800);
+	background(35,46,209);
+	colorMode(RGB, 255);
+	
+	// blue lines
+	for (let i = 0; i < random(3, 10); i++) {
+	  stroke(137, 210, 220);
+	  fill(137, 210, 220);
+	  beginShape();
+	  vertex(-800, 800);
+	  vertex(random(-800, 800), random(-800, 800));
+	  vertex(random(-800, 800), random(-800, 800));
+	  vertex(random(-800, 800), random(-800, 800));
+	  endShape(CLOSE);
 	}
-}
-
-function branchComponent(len, amount, angle) {
-	stroke.apply(null, COLOR_01);
-	var increment = 360/amount;
-	var rotAmount;
-
-	for (var i = 0; i < amount; i++) {
-		push();
-		rotAmount = -180 + increment * i
-		rotate(random(rotAmount - 60, rotAmount));
-		branch(len, angle, 1);
-		pop();
+	
+	// pink lines
+	for (let i = 0; i < random(3, 20); i++) {
+	  stroke(243, 116, 174);
+	  fill(243, 116, 174);
+	  strokeWeight(random(5, 10));
+	  beginShape();
+	  vertex(800, -800);
+	  vertex(random(-800, 800), random(-800, 800));
+	  vertex(random(-800, 800), random(-800, 800));
+	  vertex(random(-800, 800), random(-800, 800));
+	  endShape(CLOSE);
 	}
-}
+	
+	// green lines
+	stroke(194, 232, 18);
+	for (let i = 0; i < random(50, 100); i++) {
+	  line(-800, 0, random(-800, 800), random(-800, 800));
+	}
+	
+	// orange circles
+	noStroke();
+	for (let i = 0; i < random(5, 10); i++) {
+	  fill(252, 159, 91);
+	  let size = random(100, 200);
+	  ellipse(random(-800, 800), random(-800, 800), size, size);
+	}
+	stroke(252, 159, 91);
+	strokeWeight(1);
+	for (let i = 0; i < random(40, 100); i++) {
+	  let size = random(1, 5);
+	  ellipse(random(-800, 800), random(-800, 800), size, size);
+	}
+	
+	// blue circles
+	stroke(35, 46, 209);
+	for (let i = 0; i < random(2, 6); i++) {
+	  fill(35, 46, 209);
+	  let size = random(100, 200);
+	  ellipse(random(-800, 800), random(-800, 800), size, size);
+	}
+  }
+  
+  function draw() {
+	
+  }
